@@ -11,15 +11,35 @@
     <div class="wrapper">
         <header class="menu">
             <nav>
-                <a href="" class="menu__logo-link"></a>
+                <a href="" class="menu__logo-link"><img src="./images/sweater-svgrepo-com.svg" alt="sweater logo"></a>
                 <a href="" class="menu__profile-link"></a>
                 <a href="" class="menu__settings-link"></a>
             </nav>
         </header>
         <main class="main">
-            <section class="top-panel"></section>
+            <section class="top-panel">
+                <div class="top-panel__name">
+                    <button class="top-panel__undo"></button>
+                    <h1 class="top-panel__heading"></h1>
+                    <p class="top-panel__followers"></p>
+                </div>
+                <form class="top-panel__search">
+                    <label for="search" class="top-panel__search-label"></label>
+                    <input type="text" name="search" class="top-panel__search-input">
+                </form>
+            </section>
             <section class="content">
-                <div class="profile"></div>
+                <div class="profile">
+                    <div class="profile__background-wrapper"></div>
+                    <div class="profile__infobox">
+                        <img src="" alt="" class="profile__avatar">
+                        <button class="profile__follow-btn"></button>
+                        <h2 class="profile__name"></h2>
+                        <p class="profile__tag"></p>
+                        <p class="profile__following"></p>
+                        <p class="profile__followers"></p>
+                    </div>
+                </div>
                 <div class="feed"></div>
             </section>
             <section class="sidebar"></section>
