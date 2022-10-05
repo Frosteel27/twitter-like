@@ -1,18 +1,21 @@
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 400;
+    font-style: normal;
     src: url(./Roboto-Regular.woff2);
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 700;
+    font-style: normal;
     src: url(./Roboto-Bold.woff2);
 }
 
 @font-face {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 900;
+    font-style: normal;
     src: url(./Roboto-Black.woff2);
 }
 
