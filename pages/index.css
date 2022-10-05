@@ -1,0 +1,50 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/Roboto/Roboto.css);
+
+.root {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+}
+
+.menu {
+    flex-basis: 250px;
+    
+}
+
+.menu__nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__link {
+    color: inherit;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__link img {
+    width: 45px;
+    height: auto;
+}
+
+.main {
+    width: 100%;
+}
+
+.profile__avatar {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
